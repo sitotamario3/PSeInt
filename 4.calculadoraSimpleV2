@@ -1,0 +1,11 @@
+Proceso calculadoraSimpleV2
+	definir A, B, C como reales;
+	
+	escribir "Elige dos numeros para sumarlos";
+	
+	leer A, B;
+	
+	escribir "El resultado de la suma es ", A + B ;
+	escribir "El resultado de la resta es ", A - B;
+	escribir "El resultado de la multiplicación es ", A * B;
+FinProceso

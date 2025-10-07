@@ -1,0 +1,17 @@
+Proceso CocienteYResto
+	definir A, B, resto como entero;
+	escribir "Elige dos números";
+	
+	leer A, B;
+	
+	si A mod B = 0 entonces
+		escribir "El resultado de la división es ", 0;
+	sino si A mod B < 1 entonces
+			escribir "El resultado es 0 con resto ", A mod B;
+	sino 
+		escribir "El resultado de la división es ", A / B, " con resto ",A MOD B;
+	FinSi
+	
+FinProceso
+
+// Hay que mejorarlo usando trunc(A / B), mirar conversacion claude
