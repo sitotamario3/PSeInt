@@ -1,0 +1,11 @@
+Proceso AreaRectangulo
+	Definir A, B, C Como Real;;
+	
+	Escribir 'Hola! Elige anota el tamaño de la altura y la base del rectángulo para calcular el área';
+	
+	Leer A, B;
+	
+	C <- A * B;
+	
+	Escribir 'El área del rectángulo es ', C;
+FinProceso

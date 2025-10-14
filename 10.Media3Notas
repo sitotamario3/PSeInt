@@ -1,0 +1,9 @@
+Proceso Media3Notas
+	Definir A, B, C Como Real;
+	
+	Escribir 'Hola! Inserta tres notas de examen para poder calcular la nota media.';
+	
+	Leer A, B, C;
+	
+	Escribir 'La nota media de ', A, ', ', B, ' y ', C, ' es de ', (A+B+C)/3;
+FinProceso

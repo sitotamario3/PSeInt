@@ -1,0 +1,14 @@
+Proceso HorasMinutos
+	Definir A com Entero;
+	
+	Escribir 'Hola! Inserta una canitdad de minutos para calcular su equivalente en horas.'
+	
+	Leer A;
+	
+	Si A = Real;
+		Entonces
+		Escribir 'Por favor introduce una cifra entera';
+	SiNo
+		Escribir 'El equivalente de ', A, ' minutos a horas es ', A
+	FinSi
+FinProceso

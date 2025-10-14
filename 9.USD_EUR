@@ -1,0 +1,9 @@
+Proceso USD_EUR
+	Definir A como real;
+	
+	Escribir 'Hola! Inserta una cantidad en dólares para obtener su equivalente en euros';
+	
+	Leer A;
+	
+	Escribir 'El equivalente de ', A, ' dólares en euros es ', A*0.92, ' euros';
+FinProceso
