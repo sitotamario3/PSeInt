@@ -1,0 +1,9 @@
+Proceso UltimoDigito
+	Definir A Como Entero;
+	
+	Escribir 'Hola! Inserta un número entero de varias cifras para recibir el último dígito en pantalla';
+	
+	Leer A;
+	
+	Escribir 'El último dígito del número introducido es ', A MOD 10;
+FinProceso

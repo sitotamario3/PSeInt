@@ -1,14 +1,12 @@
 Proceso HorasMinutos
-	Definir A com Entero;
-	
-	Escribir 'Hola! Inserta una canitdad de minutos para calcular su equivalente en horas.'
+	Definir A, horas, minutos como Entero;
+	Escribir 'Hola! Inserta una canitdad de minutos para calcular su equivalente en horas.';
 	
 	Leer A;
 	
-	Si A = Real;
-		Entonces
-		Escribir 'Por favor introduce una cifra entera';
-	SiNo
-		Escribir 'El equivalente de ', A, ' minutos a horas es ', A
-	FinSi
+	horas <- trunc(A/60);
+	minutos <- A MOD 60;
+	
+	Escribir 'El equivalente de ', A, ' minutos a horas es ',horas, ' horas y ', A MOD 60, ' minutos.';
+
 FinProceso
