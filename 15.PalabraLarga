@@ -1,0 +1,23 @@
+Proceso PalabraLarga
+	Definir palabra_1, palabra_2 Como Caracter;
+	Definir long_1, long_2 Como Logico;
+	Escribir 'Escribe 2 palabras';
+	
+	Leer palabra_1;
+	Leer palabra_2;
+	long_1 <- longitud(palabra_1) >= 8;
+	long_2 <- longitud(palabra_2) >= 8;
+	
+	Si long_1 Entonces
+		Escribir 'La primera palabra contiene más de 8 caracteres, elige una palabra más corta';
+	SiNo
+		Escribir 'La primera palabra contiene 8 o menos caracteres';
+	FinSi
+	
+	Si long_2 Entonces
+		Escribir 'La segunda palabra contiene más de 8 caracteres, elige una palabra más corta';
+	SiNo
+		Escribir 'La segunda palabra contiene 8 o menos caracteres';
+	FinSi
+	
+FinProceso

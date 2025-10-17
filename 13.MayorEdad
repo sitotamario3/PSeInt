@@ -1,0 +1,14 @@
+Proceso MayorEdad
+	Definir Edad como Entero;
+	Definir mayor_Edad Como Logico;
+	Escribir 'Hola! Inserta tu edad para continuar';
+	
+	Leer Edad;
+	mayor_Edad <- (Edad >= 18);
+	Si  mayor_Edad Entonces
+		Escribir 'Eres mayor de edad, puedes entrar a la página web';
+	SiNo
+		Escribir 'NO eres mayor de edad, no puedes entrar en la página web';
+	FinSi
+	
+FinProceso

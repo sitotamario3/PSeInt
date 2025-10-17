@@ -1,0 +1,16 @@
+Proceso Rango
+	Definir num Como Real;
+	Definir rang Como Logico;
+	Escribir'Inserta un número para comprobar si se en encuentra entre el 1 y el 100';
+	
+	Leer num;
+	rang <- (num <=100 y num >=1);
+	
+	
+	Si rang entonces
+		Escribir 'El numero seleccionado ', num, ' SÍ se encuentra en el rango 0-100';
+	SiNo
+		Escribir 'El numero seleccionado ', num, ' NO se encuentra en el rango 0-100';
+		
+	FinSi
+FinProceso
