@@ -1,0 +1,23 @@
+Proceso PositivoNegativo
+	Definir num, i, mayor, menor, igual Como Entero;
+	
+	mayor<- 0;
+	menor<- 0;
+	igual<- 0;
+	
+	Para i<-1 Hasta 5 con Paso 1 Hacer
+		Escribir "Dime 5 números";
+		Leer num;
+		Si num > 0 Entonces
+			mayor<-mayor+1;
+		FinSi
+		Si num < 0 Entonces
+			menor<-menor+1;
+		FinSi
+		Si num = 0 Entonces
+			igual<-igual+1;
+		FinSi
+		Escribir "En total hay: ", mayor, " números mayores que 0 ", menor, " números menores que 0 y ", igual, " números iguales a 0.";
+		
+	FinPara
+FinProceso
