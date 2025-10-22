@@ -1,0 +1,12 @@
+Algoritmo Renta
+	Definir edad, ingresosM Como Entero;
+	Escribir "Inserta tu edad";
+	Leer edad;
+	Escribir "Inserta tus ingresos mensuales"
+	Leer ingresosM;
+	Si edad >= 18 y ingresosM > 1000 Entonces
+		Escribir "Tienes que tributar";
+	SiNo
+		Escribir "No tienes que tributar";
+	FinSi
+FinAlgoritmo

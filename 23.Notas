@@ -1,0 +1,20 @@
+Algoritmo Notas
+	Definir nota Como Real;
+	Escribir "Inserta tu nota";
+	Leer nota;
+	Si nota >= 0 y nota < 5 Entonces
+		Escribir "Es un suspenso";
+	FinSi
+	Si nota >= 5 y nota <= 6 Entonces
+		Escribir "Es un aprobado";
+	FinSi
+	Si nota >= 7 y nota <= 8 Entonces
+		Escribir "Es un notable";
+	FinSi
+	Si nota >= 9 y nota <= 10 Entonces
+		Escribir "Es un sobresaliente";
+	FinSi
+	Si nota > 10 o nota < 0 Entonces
+		Escribir "Error, inserta una nota del 1-10";
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,15 @@
+Algoritmo ConversorKmM
+	Definir eleccion, num Como Real;
+	Escribir "Elige 1 para convertir de metros a kilometros o elige 2 para convertir de KM a M";
+	Leer eleccion;
+	Segun eleccion Hacer
+		1 :
+			Escribir "Elige un número en metros para convertirlo en kilometros";
+			Leer num;
+			Escribir num, " Metros convertidos a Kilólmetros son ", num * 0.001, " kilometros";
+		2 : 
+			Escribir "Elige un número en kilometros para convertirlo en metros";
+			Leer num;
+			Escribir num, " Kilometros convertidos a Metros son ", num * 1000, " metros";
+	FinSegun
+FinAlgoritmo

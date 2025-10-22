@@ -1,0 +1,14 @@
+Algoritmo FindeV1
+	Definir dia Como Entero;
+	Escribir "Escoge un dia de la semana del 1 al 7";
+	leer dia;
+	Si dia >= 1 y dia <= 5 Entonces
+		Escribir "Has escogido un día laboral";
+	SiNo
+		Si dia >= 6 y dia <= 7 Entonces
+			Escribir "Has escogido un día de fin de semana";
+		SiNo
+			Escribir "Error, escoge un día del 1 al 7";
+		FinSi
+	FinSi
+FinAlgoritmo

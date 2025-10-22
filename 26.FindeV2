@@ -1,0 +1,23 @@
+Algoritmo FindeV2
+	Definir dia Como Entero;
+	Escribir "Escoge un dia de la semana del 1 al 7";
+	leer dia;
+	Segun dia Hacer
+		1 : 
+			Escribir "Has escogido un día laboral";
+		2 : 
+			Escribir "Has escogido un día laboral";
+		3 : 
+			Escribir "Has escogido un día laboral";
+		4 : 
+			Escribir "Has escogido un día laboral";
+		5 : 
+			Escribir "Has escogido un día laboral";
+		6 : 
+			Escribir "Has escogido un día de fin de semana";
+		7 : 
+			Escribir "Has escogido un día de fin de semana";
+		De Otro Modo:
+			Escribir "Error, escoge un día del 1 al 7";
+	FinSegun
+FinAlgoritmo

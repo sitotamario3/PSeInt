@@ -1,0 +1,23 @@
+Algoritmo DiaSemana
+	Definir dia Como Entero
+	Escribir "Escoge un día de la semana del 1 al 7";
+	Leer dia;
+	Segun dia Hacer
+		1 : 
+			Escribir "Has escogido Lunes";
+		2 : 
+			Escribir "Has escogido Martes";
+		3 : 
+			Escribir "Has escogido Miercoles";
+		4 : 
+			Escribir "Has escogido Jueves";
+		5 : 
+			Escribir "Has escogido Viernes";
+		6 : 
+			Escribir "Has escogido Sábado";
+		7 : 
+			Escribir "Has escogido Domingo";
+		De Otro Modo:
+			Escribir "Número no válido";
+	FinSegun
+FinAlgoritmo

@@ -1,0 +1,17 @@
+Algoritmo Edad
+	Definir edad1 Como Entero;
+	Escribir "Inserta tu edad";
+	Leer edad1;
+	Si edad1 < 13 Entonces
+		Escribir "Es un Niño";
+	FinSi
+	Si edad1 >= 13 y edad1 <=17 Entonces
+		Escribir "Es un Adolescente";
+	FinSi
+	Si edad1 >= 18 y edad1 <=64 Entonces
+		Escribir "Es un Adulto";
+	FinSi
+	Si edad1 >= 65 Entonces
+		Escribir "Es un Jubilado";
+	FinSi
+FinAlgoritmo
